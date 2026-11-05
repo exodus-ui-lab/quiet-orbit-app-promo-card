@@ -1,0 +1,21 @@
+{
+  "name": "skywatch-promo-api",
+  "version": "1.0.0",
+  "description": "API behind the Skywatch app promo card: app data and send-me-the-link delivery.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.0.0",
+    "@fastify/rate-limit": "^10.2.0",
+    "fastify": "^5.2.0",
+    "zod": "^4.1.0"
+  }
+}
